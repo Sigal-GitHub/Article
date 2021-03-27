@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圣杯布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .clear:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .container {
+            background-color: yellow;
+            margin: 0 150px 0 200px;
+        }
+
+        .container .center {
+            height: 400px;
+            float: left;
+            width: 100%;
+        }
+
+        .container .left {
+            width: 200px;
+            height: 400px;
+            float: left;
+            background-color: green;
+            margin-left: -100%;
+            position: relative;
+            left: -200px;
+        }
+
+        .container .right {
+            width: 150px;
+            height: 400px;
+            float: left;
+            background-color: blue;
+            margin-left: -150px;
+            position: relative;
+            right: -150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container clear">
+        <div class="center">
+            使用浮动与定位的圣杯布局，两列固定，中间自适应。<br>
+            圣杯布局的结构更加简单，不需要多余的容器，如双飞翼中的p标签 <br>
+        </div>
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+
+</html>

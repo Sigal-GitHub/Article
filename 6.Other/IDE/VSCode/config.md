@@ -224,9 +224,9 @@
     "picgo.picBed.aliyun.area": "oss-cn-shenzhen", // 配置服务器地域
     "picgo.picBed.aliyun.bucket": "sigal-picbed", // 配置 OSS 对象名称
     "picgo.picBed.aliyun.path": "pic/", // 配置需要保持到远程 OSS 对象的文件路径
-    "picgo.picBed.aliyun.accessKeyId": "LTAI4GKDXWXBCfmCjLLWTBzY",
-    "picgo.picBed.aliyun.accessKeySecret": "cmvOQyGk5cSroLluZ8ofEDHIONcRyp",
-    "picgo.picBed.aliyun.customUrl": "http://pic.sigalx.com", // 如果 OSS 绑定了域名，就填绑定的域名
+    "picgo.picBed.aliyun.accessKeyId":
+    "picgo.picBed.aliyun.accessKeySecret":
+    "picgo.picBed.aliyun.customUrl": // 如果 OSS 绑定了域名，就填绑定的域名
 
     // json如果格式正确还提示ts的冒号错误，就关闭这个
     "javascript.validate.enable": false,
